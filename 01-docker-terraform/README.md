@@ -7,6 +7,7 @@
 - 
 
 ## Homework
-- Submission: `homework/`
-- Notes: `notes/`
-- Code: `src/`
+- Submission: [homework/](homework/)
+- Notes: [notes/](notes/)
+- Code: [src/](src/)
+
