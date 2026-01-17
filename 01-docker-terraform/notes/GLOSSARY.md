@@ -1,4 +1,4 @@
-# Glossary — Module 01 (Docker, Postgres, Terraform)
+# Glossary — Module 01 (Docker, Postgres, GCP, Terraform)
 
 ## GitHub Codespaces
 A cloud-hosted development environment (VS Code + Linux VM) that can come preconfigured with tools like Docker.
@@ -59,3 +59,4 @@ A relational database often used in data engineering.
 
 ## Postgres container
 Running PostgreSQL as a Docker container instead of installing it locally.
+
