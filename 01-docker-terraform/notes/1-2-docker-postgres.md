@@ -3,7 +3,7 @@
 ## Goal
 
 ## Prerequisites
-1. GitHub account to use CodeSpaces
+1. GitHub account
 2. Python installed
 3. Docker installed
 
@@ -38,8 +38,27 @@
 | `dcoker run -it ubuntu` | Interact with docker image |
 
 ## Gotchas / Warnings
+> [!CAUTION]
+> Dont use `rm -rf /` on your computer as it attempts to delete everything on the machine, including critical system files, and can render the OS unbootable (data loss), But you can use it inside docker container as it isolated from your system.
+
+> [!CAUTION]
+> `>` overwrites `.bashrc`. Use `>>` to append safely. ( `echo 'PS1="> "' >> ~/.bashrc` )
 
 ## New terms
+- [GitHub Codespaces](GLOSSARY.md#github-codespaces)
+- [Docker](GLOSSARY.md#docker)
+- [Docker daemon (dockerd)](GLOSSARY.md#docker-daemon-dockerd)
+- [Image](GLOSSARY.md#image)
+- [Container](GLOSSARY.md#container)
+- [Port mapping](GLOSSARY.md#port-mapping--p-hostcontainer)
+- [Environment variables](GLOSSARY.md#environment-variables--e)
+- [Volume (persistence)](GLOSSARY.md#volume-persistence)
+- [Docker network](GLOSSARY.md#docker-network)
+- [Docker Compose](GLOSSARY.md#docker-compose)
+- [Localhost (host vs container)](GLOSSARY.md#localhost-host-vs-container)
+- [Postgres container](GLOSSARY.md#postgres-container)
 
 ## References
--  What is Docker? [Link](https://docs.docker.com/get-started/docker-overview/)
+- [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
+- [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
