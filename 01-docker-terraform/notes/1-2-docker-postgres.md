@@ -35,6 +35,8 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 | --- | --- |
 | `python -V` & `python --version` | Check Python version |
 | `echo 'PS1="> "' > ~/.bashrc` | Overwrites your entire bash configuration and simplifies your terminal prompt |
+| `source ~/.bashrc` | Reloads your .bashrc in the current terminal, applying changes immediately |
+| `cp /etc/skel/.bashrc ~/.bashrc` | Copies the system’s default .bashrc from /etc/skel/ into your home directory, making your ~/.bashrc the default one. |
 | `docker` | Prints the help/usage text for docker (proves the Docker CLI is installed and runnable) |
 | `dcoker run  hello-world` | Does an end-to-end Docker test |
 | `dcoker run -it ubuntu` | Interact with docker image |
@@ -48,6 +50,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 
 ## New terms
 - [GitHub Codespaces](GLOSSARY.md#github-codespaces)
+- [.gitignore](GLOSSARY.md#gitignore)
 - [Docker](GLOSSARY.md#docker)
 - [Docker daemon (dockerd)](GLOSSARY.md#docker-daemon-dockerd)
 - [Image](GLOSSARY.md#image)
@@ -63,5 +66,6 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
 
