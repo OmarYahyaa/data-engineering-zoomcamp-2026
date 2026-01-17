@@ -26,7 +26,8 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 - **Same network by default:** Services in the same compose file run on the same default network and can reach each other by service name (e.g., pgdatabase).
 
 ## Deep Understanding
-
+### VM vs Docker vs Codespaces
+![VM vs Docker vs Codespaces](assets/vm-vs-docker-vs-codespaces.png)
 - **VM (VirtualBox):** Full guest OS → heavier, strong isolation.
 - **Docker:** Shared host kernel via Docker daemon → lightweight, fast.
 - **Codespaces:** Cloud VM (hidden) + containerized dev env → consistent Linux setup.
@@ -72,6 +73,7 @@ Build an end-to-end local data-engineering workflow using Docker: run Postgres i
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
 
 
