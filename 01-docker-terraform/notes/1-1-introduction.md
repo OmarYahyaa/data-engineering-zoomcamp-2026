@@ -56,10 +56,10 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 - [ ] Submit homework using my GitHub folder URL (when required)
 - [ ] Decide: cloud (GCP) or local-only path (local is allowed, Terraform may be skipped)
 
-## Q&A takeaways
+## Q&A Takeaways
 - If you lack prerequisites, it’s better to build fundamentals first, then reattempt.
 - Using **Linux** is ideal for this course, but **GitHub Codespaces** is a great alternative since it provides a Linux environment in the cloud.
-- Using AI is OK **if you understand every line** you submit/use.
+- Using AI (e.g., ChatGPT) is encouraged **as long as you understand every line** you use/submit.
 - Projects + learning in public can improve visibility; applying early helps understand interview gaps.
 
 > [!IMPORTANT]
@@ -72,12 +72,17 @@ Understand the course structure, prerequisites, homework/project workflow, and h
 
 > Credit: [**Bruno Oliveira**](https://www.linkedin.com/in/iobruno/) answered this question. [Watch the Q&A](https://youtu.be/X8cEEwi8DTM?list=PL3MmuxUbc_hJZdpLpRHp7dg6EOx828q6y&t=4146)
 
+## Career Development Insights
+- **Junior data engineering roles are relatively rare**; many DE roles expect prior experience (often from backend/software engineering).
+- If starting from scratch, the fastest path is to **build multiple projects (portfolio)** and **network** (e.g., local meetups/community) to land the first role.
+
 ## References
 - [Course GitHub repo](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 - [Course documentation site](https://datatalks.club/docs/courses/data-engineering-zoomcamp/)
 - [Course management site](https://courses.datatalks.club/de-zoomcamp-2026/)
 - [NYC Taxi dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - [FAQ site](https://datatalks.club/faq/data-engineering-zoomcamp.html)
+
 
 
 
