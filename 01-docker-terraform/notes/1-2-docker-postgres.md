@@ -1,9 +1,11 @@
 # 1.2 — Docker + Postgres Notes
 
 ## Goal
+Build an end-to-end local data-engineering workflow using Docker: run Postgres in containers, ingest data into the database, use pgAdmin for inspection, and manage services cleanly with Docker Compose (using Codespaces for a consistent environment).
+
 
 ## Prerequisites
-1. GitHub account
+1. GitHub account 
 2. Python installed
 3. Docker installed
 
@@ -61,4 +63,5 @@
 ## References
 - [GitHub CodeSpaces Explained](https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces)
 - [Docker Explained](https://docs.docker.com/get-started/docker-overview/)
+
 
