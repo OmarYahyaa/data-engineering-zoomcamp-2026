@@ -1,41 +1,61 @@
-# Glossary — Module 01 (Docker & Terraform)
+# Glossary — Module 01 (Docker, Postgres, Terraform)
+
+## GitHub Codespaces
+A cloud-hosted development environment (VS Code + Linux VM) that can come preconfigured with tools like Docker.
+
+## Docker
+A platform for building, shipping, and running applications in containers.
 
 ## Docker daemon (dockerd)
-**Definition:** The background service that builds, runs, and manages containers, images, networks, and volumes.  
-**Why it matters:** Your `docker` CLI commands talk to the daemon to do the actual work.  
-**Example:** `docker info` shows daemon details.
+The background service that builds, runs, and manages containers, images, networks, and volumes.
 
 ## Docker CLI
-**Definition:** The `docker` command-line tool you use to interact with the Docker daemon.  
-**Why it matters:** It’s the main interface for running containers and managing images.  
-**Example:** `docker ps`
+The `docker` command-line tool you use to communicate with the Docker daemon.
 
 ## Image
-**Definition:** A packaged snapshot/template containing everything needed to run an application.  
-**Why it matters:** Containers are created from images.  
-**Example:** `postgres:16`
+A packaged template/snapshot that contains everything needed to run an application.
 
 ## Container
-**Definition:** A running instance of an image.  
-**Why it matters:** This is what actually runs your application/service.  
-**Example:** `docker run postgres:16`
+A running instance of an image.
 
-## Port mapping
-**Definition:** Exposing a container’s port to your machine using `HOST:CONTAINER`.  
-**Why it matters:** Lets you connect via `localhost:<port>` from your host.  
-**Example:** `-p 5432:5432`
+## Tag
+A version label for an image (e.g., `postgres:16`, `python:3.12-slim`).
+
+## Docker Hub (Registry)
+A place where Docker images are stored and downloaded from (e.g., pulling `postgres`).
+
+## `docker run`
+Command to create and start a container from an image.
+
+## Interactive mode (`-it`)
+Runs a container interactively with a terminal attached (e.g., `docker run -it ubuntu bash`).
+
+## Auto-remove (`--rm`)
+Removes the container automatically when it stops (useful for temporary runs).
+
+## Environment variables (`-e`)
+Key-value settings passed into a container (commonly used to configure Postgres user/password/db).
+
+## Port mapping (`-p HOST:CONTAINER`)
+Exposes a container port to your machine so you can access it via `localhost:<host_port>`.
+
+## Localhost (host vs container)
+`localhost` inside a container refers to that container itself, not your laptop/host machine.
 
 ## Volume (persistence)
-**Definition:** A storage mechanism to keep data even if the container restarts or is recreated.  
-**Why it matters:** Postgres data would otherwise be lost when the container is removed.  
-**Example:** `-v pgdata:/var/lib/postgresql/data`
+Storage that keeps data even if the container is removed/recreated (critical for databases).
+
+## Bind mount (`-v /host/path:/container/path`)
+Maps a folder from your machine into the container (share files between host and container).
 
 ## Docker network
-**Definition:** A virtual network that allows containers to communicate with each other.  
-**Why it matters:** Containers can connect using container/service names instead of `localhost`.  
-**Example:** connect to Postgres host `pgdatabase`
+A virtual network that allows containers to communicate with each other.
 
-## Docker Compose
-**Definition:** A tool to define and run multi-container applications using `docker-compose.yml`.  
-**Why it matters:** One command can start Postgres + pgAdmin together.  
-**Example:** `docker compose up -d`
+## Service name / Container name
+A name used to reach a container on the same Docker network (instead of using `localhost`).
+
+## PostgreSQL (Postgres)
+A relational database often used in data engineering.
+
+## Postgres container
+Running PostgreSQL as a Docker container instead of installing it locally.
