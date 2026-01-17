@@ -9,7 +9,7 @@ Docker basics, running Postgres in containers, Docker networking/volumes, Docker
 - **Homework submission:** [homework/](homework/)
 
 ## Progress
-- ✅ 1.1 Introduction
+- ✅ 1.1 Introduction notes: [notes/1-1-introduction.md](notes/1-1-introduction.md)
 - ✅ 1.2 Docker + Postgres notes: [notes/1-2-docker-postgres.md](notes/1-2-docker-postgres.md)
 - ⬜ 1.3 SQL Refresher
 - ⬜ 1.4 GCP
@@ -22,4 +22,5 @@ Docker basics, running Postgres in containers, Docker networking/volumes, Docker
    - read the note file in `notes/`
    - if there’s implementation, follow the steps in `src/<topic>/README.md`
 3. Track homework in: [../HOMEWORKS.md](../HOMEWORKS.md)
+
 
