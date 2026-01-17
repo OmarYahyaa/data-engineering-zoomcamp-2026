@@ -3,6 +3,10 @@
 ## GitHub Codespaces
 A cloud-hosted development environment (VS Code + Linux VM) that can come preconfigured with tools like Docker.
 
+## .gitignore
+A file that tells Git which files/folders to exclude from tracking and commits, helping keep the repo clean by ignoring generated files (caches) and sensitive/local files (e.g., `.env`, keys, large datasets).
+
+
 ## Docker
 A platform for building, shipping, and running applications in containers.
 
@@ -59,4 +63,5 @@ A relational database often used in data engineering.
 
 ## Postgres container
 Running PostgreSQL as a Docker container instead of installing it locally.
+
 
